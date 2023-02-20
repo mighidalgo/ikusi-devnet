@@ -6,16 +6,24 @@ In this code we analyze data from Meraki API. We are going to use Bollinger Band
 Install `docker` and `docker-compose` previously.
 
 Clone the repo
-`git clone https://github.com/mighidalgo/ikusi-devnet.git`
+```bash
+git clone https://github.com/mighidalgo/ikusi-devnet.git`
+```
 
 Go to your project folder
-`cd ikusi-devnet`
+```bash
+cd ikusi-devnet`
+```
 
 Run docker compose
-`docker-compose up -d`
+```bash
+docker-compose up -d`
+```
 
 Now you have the project up and running, enter the URL
-`http://localhost:8001/fetch`
+```bash
+http://localhost:8001/fetch`
+```
 
 ## Configuration
 
