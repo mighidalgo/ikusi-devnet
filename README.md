@@ -1,16 +1,25 @@
-# Ikusi Devnet Project
+# Meraki Data analysis through confidence interval
 
-## Getting started
+In this code we analyze data from Meraki API. We are going to use Bollinger Bands analysis for Meraki data an provide a confidence inteval to detect data that goes beyond 2 standard deviation
 
-Repositorio base para el proyectos con FastAPI y Analisis de datos aplicados a APis.
+##Installation
+Install `docker` and `docker-compose` previously.
 
-## How to run
+Clone the repo
+`git clone https://github.com/mighidalgo/ikusi-devnet.git`
 
-- En el archivo `docker-compose` se setean las variables de ambiente
-  - `BASE_URL` - Obligatorio, URL para API de Meraki
-  - `API_KEY` - Obligatorio, api key para el acceso a la API
-  - `ORG_ID` - Opcional, si deseamos obtener los datos de una organización en particular; en caso de no setear este valor, se tomará la primera disponible en la API.
+Go to your project folder
+`cd ikusi-devnet`
 
-- Instalar `docker` y `docker-compose`
-- Ejecutar `docker-compose up -d`
-- Abrir en navegador `http://localhost:8001/`
+Run docker compose
+`docker-compose up -d`
+
+Now you have the project up and running, enter the URL
+`http://localhost:8001/fetch`
+
+## Configuration
+
+- In order to fetch data from Meraki API, we need to set this env variables in the `docker-compose` file
+  - `BASE_URL` - Required, Meraki API URL.
+  - `API_KEY` - Required, Apikey to access the API.
+  - `ORG_ID` - Optional, if you want the data from a specific organization of the Meraki data, set this var.
