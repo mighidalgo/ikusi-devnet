@@ -2,7 +2,7 @@
 
 In this code we analyze data from Meraki API. We are going to use Bollinger Bands analysis for Meraki data an provide a confidence inteval to detect data that goes beyond 2 standard deviation
 
-##Installation
+## Installation
 Install `docker` and `docker-compose` previously.
 
 Clone the repo
