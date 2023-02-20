@@ -7,22 +7,22 @@ Install `docker` and `docker-compose` previously.
 
 Clone the repo
 ```bash
-git clone https://github.com/mighidalgo/ikusi-devnet.git`
+git clone https://github.com/mighidalgo/ikusi-devnet.git
 ```
 
 Go to your project folder
 ```bash
-cd ikusi-devnet`
+cd ikusi-devnet
 ```
 
 Run docker compose
 ```bash
-docker-compose up -d`
+docker-compose up -d
 ```
 
 Now you have the project up and running, enter the URL
 ```bash
-http://localhost:8001/fetch`
+http://localhost:8001/fetch
 ```
 
 ## Configuration
