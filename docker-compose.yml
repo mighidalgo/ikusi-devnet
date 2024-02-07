@@ -12,3 +12,4 @@ services:
       #- BASE_URL=
       #- API_KEY=
       #- ORG_ID=
+      #- ISOLATION_SENSITIVITY=
